@@ -95,7 +95,7 @@ module.exports = function(settings) {
      */
     if (this.method === 'OPTIONS') {
       // https://github.com/emberjs/data/issues/1732
-      this.status = 302;
+      this.status = 304;
     }
 
   }
